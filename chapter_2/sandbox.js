@@ -191,7 +191,7 @@ console.log(bill([10,15,30], 0.2));
 console.log(bill([10,15,30], 0.2));
 
 // console.log(greet());
-console.log(bill([10,15,30], 0.2));
+console.log(bill([10,15,30], 0.2)); 
 
 
 
