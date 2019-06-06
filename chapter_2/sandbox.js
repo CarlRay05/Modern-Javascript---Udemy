@@ -189,23 +189,32 @@
 // console.log(bill([10,15,30], 0.2));
 
 // object literals
+// const blogs = [
+//   {title: 'Why mac and cheese rules', likes: 30},
+//   {title: '10 things to make with Marmite', likes: 50}
+// ];
+
+// console.log(blogs);
 
 let user = {
   name: 'crystal',
   age: 30,
   email: 'crystal@thenetninja.co.uk',
   location: 'berlin',
-  blogs: ['why mac and cheese rules', '10 things to make with marmite'],
-  login: function () {
+  blogs: [
+    {title: 'Why mac and cheese rules', likes: 30},
+    {title: '10 things to make with Marmite', likes: 50}
+  ],
+  login: function (){
     console.log(('the user logged in'));
   },
-  logout: function () {
+  logout: function (){
     console.log(('the user logged out'));
   },
   logBlogs: function(){
     console.log('this user has written the following blogs:');
     this.blogs.forEach(blog => {
-      console.log(blog);
+      console.log(blog.title, blog.likes);
     })
   }
 };
