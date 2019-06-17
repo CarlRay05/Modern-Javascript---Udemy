@@ -196,53 +196,60 @@
 
 // console.log(blogs);
 
-let user = {
-  name: 'crystal',
-  age: 30,
-  email: 'crystal@thenetninja.co.uk',
-  location: 'berlin',
-  blogs: [
-    {title: 'Why mac and cheese rules', likes: 30},
-    {title: '10 things to make with Marmite', likes: 50}
-  ],
-  login: function (){
-    console.log(('the user logged in'));
-  },
-  logout: function (){
-    console.log(('the user logged out'));
-  },
-  logBlogs: function(){
-    console.log('this user has written the following blogs:');
-    this.blogs.forEach(blog => {
-      console.log(blog.title, blog.likes);
-    })
-  }
-};
+// let user = {
+//   name: 'crystal',
+//   age: 30,
+//   email: 'crystal@thenetninja.co.uk',
+//   location: 'berlin',
+//   blogs: [
+//     {title: 'Why mac and cheese rules', likes: 30},
+//     {title: '10 things to make with Marmite', likes: 50}
+//   ],
+//   login: function (){
+//     console.log(('the user logged in'));
+//   },
+//   logout: function (){
+//     console.log(('the user logged out'));
+//   },
+//   logBlogs: function(){
+//     console.log('this user has written the following blogs:');
+//     this.blogs.forEach(blog => {
+//       console.log(blog.title, blog.likes);
+//     })
+//   }
+// };
 
-user.logBlogs();
-console.log(this);
-
-
-
-
-// user.login();
-// user.logout();
-
-// const name = 'mario';
-// name.toUpperCase();
+// user.logBlogs();
+// console.log(this);
 
 
 
-// console.log(user);
-// console.log(user.name); //dot notation
+// Math Object
+// console.log(Math);
+// console.log(Math.PI);
+// console.log(Math.E);
 
-// console.log(user['name']);  //bracket notation
-// console.log(user['email']); //bracket notation
+const area = 7.7;
+console.log(Math.round(area));
+console.log(Math.floor(area));
+console.log(Math.ceil(area));
+console.log(Math.trunc(area));
 
-// user['name'] = 'chun-li;';  //bracket notation
-// console.log(user['name']);  //bracket notation
+// random number
+const random = Math.random();
+console.log(random);
 
-// console.log(typeof user);
+console.log(Math.round(random * 100));  //random # from 1-100
+
+
+
+
+
+
+
+
+
+
 
 
 
