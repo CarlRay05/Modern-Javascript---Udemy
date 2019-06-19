@@ -285,15 +285,37 @@
 
 // errors.forEach(errors => {
 //     console.log(error);
-    
+	
 // });
 
-// get elements by their tag name
-const paras = document.getElementsByTagName('p');
-console.log(paras);
-console.log(paras[1]);
+// // get elements by their tag name
+// const paras = document.getElementsByTagName('p');
+// console.log(paras);
+// console.log(paras[1]);
 
+const para = document.querySelector('p');
 
+// console.log(para.innerText);
+// para.innerText = ' Ninjas are awesome!';
+
+// const paras = document.querySelectorAll('p');
+// 	paras.forEach(para => {
+// 		console.log(para.innerText);
+// 		para.innerText += ' new text'; 
+// 	});	
+
+const content = document.querySelector('.content');
+
+// console.log(content.innerHTML);
+// content.innerHTML +='<h2>This is the NEW h2</h2>';
+
+// ***** COOL SHIT *******   placing content into page and HTML
+
+const people = ['mario' , 'luigi' , 'yoshi'];
+
+people.forEach(person => {
+	content.innerHTML += `<p>${person}</p>`;
+});
 
 
 
