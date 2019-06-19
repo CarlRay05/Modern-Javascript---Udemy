@@ -243,24 +243,27 @@
 
 // primitive types
 
-let scoreOne = 50;
-let scoreTwo = scoreOne;
+// let scoreOne = 50;
+// let scoreTwo = scoreOne;
 
-console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
+// console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
 
-scoreOne = 100;
-console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
+// scoreOne = 100;
+// console.log(`scoreOne: ${scoreOne}`, `scoreTwo: ${scoreTwo}`);
 
 
-// reference types
-const userOne = { name: 'ryu' , age: 30 };
-const userTwo = userOne;
+// // reference types
+// const userOne = { name: 'ryu' , age: 30 };
+// const userTwo = userOne;
 
-console.log(userOne, userTwo);
+// console.log(userOne, userTwo);
 
-userOne.name = 'chun-li';
-console.log(userOne, userTwo);
+// userOne.name = 'chun-li';
+// console.log(userOne, userTwo);
 
+// **** Chapter 6 ****
+const para = document.querySelector('.error');
+console.log(para);
 
 
 
