@@ -16,6 +16,6 @@ module.exports = {
   },
   rules: {
     "no-console": "off",
-    "indent": ["2", "tab"]
+    "indent": ["0", "tab"]
   },
 };
